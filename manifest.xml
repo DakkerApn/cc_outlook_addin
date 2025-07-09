@@ -7,8 +7,8 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="CoffeeCup Tracker"/>
   <Description DefaultValue="Track Outlook events in CoffeeCup"/>
-  <IconUrl DefaultValue="https://via.placeholder.com/32"/>
-  <SupportUrl DefaultValue="https://coffeecup.app"/>
+<IconUrl DefaultValue="https://dakkerapn.github.io/cc_outlook_addin/icon.png" />
+<SupportUrl DefaultValue="https://coffeecup.app"/>
   <AppDomains>
     <AppDomain>https://dakkerapn.github.io</AppDomain>
   </AppDomains>
