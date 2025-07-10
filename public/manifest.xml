@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="TaskPaneApp">
+    <Id>9d65ef01-b3f7-4e7f-8c36-demo00000001</Id>
+    <Version>1.0.0.0</Version>
+    <ProviderName>CoffeeCup Tracker</ProviderName>
+    <DefaultLocale>en-US</DefaultLocale>
+    <DisplayName DefaultValue="CoffeeCup Tracker"/>
+    <Description DefaultValue="Track Outlook events in CoffeeCup"/>
+    <IconUrl DefaultValue="https://cc-outlook-addin.vercel.app/icon.png"/>
+    <SupportUrl DefaultValue="https://coffeecup.app"/>
+    <AppDomains>
+        <AppDomain>https://cc-outlook-addin.vercel.app</AppDomain>
+    </AppDomains>
+    <Hosts>
+        <Host Name="Mailbox"/>
+    </Hosts>
+    <Requirements>
+        <Sets DefaultMinVersion="1.1">
+            <Set Name="Mailbox"/>
+        </Sets>
+    </Requirements>
+    <DefaultSettings>
+        <SourceLocation DefaultValue="https://cc-outlook-addin.vercel.app/taskpane.html"/>
+    </DefaultSettings>
+    <Permissions>ReadWriteItem</Permissions>
+</OfficeApp>
