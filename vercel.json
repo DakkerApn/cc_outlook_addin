@@ -3,5 +3,13 @@
     { "source": "/", "destination": "/taskpane.html" }
   ],
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "headers": [
+    {
+      "source": "/manifest.xml",
+      "headers": [
+        { "key": "Content-Type", "value": "text/xml" }
+      ]
+    }
+  ]
 }
