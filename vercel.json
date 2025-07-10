@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/taskpane.html" }
+  ],
+  "cleanUrls": true,
+  "trailingSlash": false
+}
